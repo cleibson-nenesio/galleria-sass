@@ -1,0 +1,17 @@
+/* Error: There is no module with the namespace "mixin".
+ *    ,
+ * 74 | /     @include mixin.mobile
+ * 75 | \         flex-direction: column
+ *    '
+ *   src\sass\styles.sass 74:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: There is no module with the namespace "mixin".\a    \2577 \a 74 \2502  \250c      @include mixin.mobile\a 75 \2502  \2514          flex-direction: column\a    \2575 \a   src\\sass\\styles.sass 74:5  root stylesheet';
+}
